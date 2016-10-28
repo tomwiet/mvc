@@ -25,9 +25,13 @@ abstract class Model{
      *
      * @return void
      */
+	 //kostruktor obiektu. Przy tworzeniu jakiegokolwiek obiektu modelu nawiązywane jest połaczenie z bazą danych
     public function  __construct() {
-		include 'config/config.php';
+		
+		include_once 'config/config.php';
+		
 		$this->conn = new mysqli($server_DB,$user_DB,$password_DB,$name_DB);
+		
 		if($this->conn->connect_error){
 		
 			die("Connection failed: " . $this->conn->connect_error);
@@ -44,15 +48,17 @@ abstract class Model{
      *
      * @return object
      */
+	 
+	//tworzy obiekt modelu 
     public function loadModel($name, $path='model/') {
 		$name=ucfirst($name.'Model'); //np ArticlesModel
 		$path=$path.$name.'.php'; //np views/ArticlesModel.php
 		
 		if(is_file($path)){
 			$model_ob = new $name();
-			}else{
-				echo 'Nie można utowrzyć modelu. Brak pliku('.$path.' z klasą modelu (from Model.php)';
-				exit;
+		}else{
+			echo 'Nie można utowrzyć modelu. Brak pliku('.$path.' z klasą modelu (from Model.php)';
+			exit;
 				}
 		return $model_ob;
  
@@ -66,6 +72,8 @@ abstract class Model{
      * @param <type> $limit LIMIT
      * @return array
      */
+	 //metoda która na podstawie przekazanych parametrów konstruuje zapytanie SELECT, wysyła je do bazy
+	 // i odbiera z niej dane
     public function select($table, $fields='*', $where=NULL, $order=NULL, $limit=NULL) {
 		
 		$sql ='SELECT '.$fields.' FROM '.$table;
@@ -76,7 +84,7 @@ abstract class Model{
 		if($limit != NULL)
 			$sql = $sql.' LIMIT '.$limit;
 		$result = $this->conn->query($sql);
-		//$data=array();
+		
 		if ($result->num_rows > 0) {
 		// output data of each row
 			while($row = $result->fetch_assoc()) {
@@ -90,7 +98,8 @@ abstract class Model{
 			$data= NULL;
 		}
 		
-		//$this->conn->close();
+		$this->conn->close();
+		
 		return $data;
 	}
 	

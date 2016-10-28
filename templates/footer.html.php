@@ -1,2 +1,3 @@
+<!-- stopka strony -->
 </body>
 </html>

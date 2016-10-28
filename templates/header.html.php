@@ -1,3 +1,4 @@
+<!-- nagłowek strony -->
 <!doctype html>
 <html>
 <head>

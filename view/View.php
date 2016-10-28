@@ -39,16 +39,16 @@ abstract class View{
      *
      * @return void
      */
-	//pobranie szablonu do którego wstawimy dane 
+	//załadowanie i wyświetlenie szablonu
     public function render($name,$path='templates/') {
 		
 		$path=$path.$name.'.html.php'; //np articles.html.php
 		
 		if(is_file($path)) {
-                require $path;
-            } else {
-					echo 'Brak szablonu widoku dla '.$name;
-				}
+			require $path;
+		} else {
+			echo 'Brak szablonu widoku dla '.$name;
+		}
  
     }
     /**
@@ -59,6 +59,7 @@ abstract class View{
      *
      * @return void
      */
+	//przpisanie datych do zmiennej której nazwa przakazana jest do metodu w parametrze $name 
     public function set($name, $value) {
 		
 		$this->$name=$value;
@@ -71,6 +72,7 @@ abstract class View{
      *
      * @return mixed
      */
+	 //metoda umożliwia pobranie danych ze zmiennej której nazwa przakazana jest do metodu w parametrze $name 
     public function get($name) {
 		
 		return $this->$name;

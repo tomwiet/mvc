@@ -1,17 +1,21 @@
 <?php
-include 'config/config.php';
-//include 'controller/categories.php';
 
+include 'config/config.php';
+
+//magiczna funkcja includująca plik
 function __autoload($className){
 	
     include_once($className.".php");
 }
+
+//pobranie z adresu parametrów i uruchomienie odpowiedniego kontrolera i jego akcji
 if (!isset($_GET['task'])){
 	
 	$_GET['task'] = 'categories';
 	$_GET['action'] = 'index';
 	
 }
+
 if($_GET['task']=='categories') {
     //tworzy nowy obiekt kontrolera na podstawie klasy CategoriesControler
 	$ob = new CategoriesController(); 
@@ -20,4 +24,5 @@ if($_GET['task']=='categories') {
 	$action = $_GET['action'];
     $ob->$action(); 
 }
+
 ?>

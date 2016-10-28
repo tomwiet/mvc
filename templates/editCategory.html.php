@@ -1,3 +1,4 @@
+<!-- szablon formularza edycji kategorii -->
 <?php include 'templates/header.html.php'; ?>
 
 <h3 class="w3-panel w3-light-grey">Edycja kategorii</h3>

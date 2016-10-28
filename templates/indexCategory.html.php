@@ -1,3 +1,4 @@
+<!-- szablon pliku zawierającego spis kategorii -->
 <?php include 'templates/header.html.php'; ?>
 <h3 class="w3-panel w3-light-grey">Lista kategorii</h3>
 <table class="w3-table-all w3-hoverable">

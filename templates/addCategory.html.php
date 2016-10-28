@@ -1,4 +1,5 @@
-<?php include 'templates/header.html.php'; ?></pre>
+<!-- Szablon formularza dodawania kategorii -->
+<?php include 'templates/header.html.php'; ?>
 
 <h3 class="w3-panel w3-light-grey">Dodaj kategorię</h3>
 

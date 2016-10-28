@@ -6,9 +6,11 @@
  * @license http://www.gnu.org/copyleft/lesser.html
  */
  
+
+ 
 /**
  * This class includes methods for controllers.
- *
+ * Klasa głównego kontrolera, zawiera metody wspólne dla wszystkich kontrolerów.
  * @abstract
  */
 abstract class Controller{
@@ -33,7 +35,7 @@ abstract class Controller{
      *
      * @return object
      */
-    //tworzy obiekt widoku który odbierze dane w celu ich prezentacji
+    //tworzy obiekt widoku
 	public function loadView($name, $path='view/') {
 
 		$name=ucfirst($name.'View'); //np ArticlesView
@@ -56,6 +58,7 @@ abstract class Controller{
      *
      * @return object
      */
+	 //tworzy obiekt modelu
     public function loadModel($name, $path='model/') {
 		$name=ucfirst($name.'Model'); //np ArticlesModel
 		$path=$path.$name.'.php'; //np views/ArticlesModel.php
@@ -65,7 +68,7 @@ abstract class Controller{
 			}else{
 				echo 'Nie można utowrzyć modelu. Brak pliku( '.$path.' ) z klasą modelu (from Controller.php)';
 				exit;
-				}
+			}
 		return $model_ob;
  
     }
