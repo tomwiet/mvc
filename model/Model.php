@@ -28,7 +28,7 @@ abstract class Model{
 	 //kostruktor obiektu. Przy tworzeniu jakiegokolwiek obiektu modelu nawiązywane jest połaczenie z bazą danych
     public function  __construct() {
 		
-		include_once 'config/config.php';
+		include 'config/config.php';
 		
 		$this->conn = new mysqli($server_DB,$user_DB,$password_DB,$name_DB);
 		
