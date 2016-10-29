@@ -1,7 +1,9 @@
 <!-- szablon formularza edycji kategorii -->
 <?php include 'templates/header.html.php'; ?>
+<?php include 'templates/nav.html.php'; ?>
 
-<h3 class="w3-panel w3-light-grey">Edycja kategorii</h3>
+<div id="content" class="w3-container">
+<h3 class="w3-panel w3-light-grey w3-text-grey">Edycja kategorii</h3>
 
 <form class="w3-container" action="?task=categories&action=update" method="post">
 
@@ -11,5 +13,5 @@
 	<input class="w3-btn w3-dark-grey w3-margin-top" type="submit" value="Zapisz" />
 
 </form>
-
+</div>
 <?php include 'templates/footer.html.php'; ?>

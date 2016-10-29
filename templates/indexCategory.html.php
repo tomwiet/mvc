@@ -1,11 +1,13 @@
 <!-- szablon pliku zawierającego spis kategorii -->
 <?php include 'templates/header.html.php'; ?>
-<h3 class="w3-panel w3-light-grey">Lista kategorii</h3>
+<?php include 'templates/nav.html.php'; ?>
+<div id="content" class="w3-container">
+<h3 class="w3-panel w3-light-grey w3-text-grey">Lista kategorii</h3>
 <table class="w3-table-all w3-hoverable">
 <thead>
 <tr class="w3-light-grey"><th>ID</th><th>Nazwa</th><th>Akcja</th></tr>
 </thead>
-<tbody>
+<tbody class="w3-text-grey">
 <?php 
 //var_dump($this->get('catsData'));
 foreach($this->get('catsData') as $cats) {
@@ -24,4 +26,5 @@ foreach($this->get('catsData') as $cats) {
 
 </tbody>
 </table>
+</div>
 <? include 'templates/footer.html.php'; ?>
