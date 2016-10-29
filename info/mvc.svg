@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   id="svg2"
+   viewBox="99 59 908 627"
+   height="32cm"
+   width="46cm">
+  <metadata
+     id="metadata237">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs235" />
+  <g
+     id="Tło">
+    <g
+       id="g5">
+      <rect
+         id="rect7"
+         ry="0"
+         rx="0"
+         height="80"
+         width="200"
+         y="60"
+         x="100"
+         style="fill: #8b6914; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" />
+      <text
+         id="text9"
+         y="103.9"
+         x="200"
+         style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:700"
+         font-size="12.8">
+        <tspan
+           id="tspan11"
+           y="103.9"
+           x="200">PRZEGLĄDARKA</tspan>
+      </text>
+    </g>
+    <text
+       id="text13"
+       y="100"
+       x="200"
+       style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal"
+       font-size="12.8">
+      <tspan
+         id="tspan15"
+         y="100"
+         x="200" />
+    </text>
+    <text
+       id="text17"
+       y="100"
+       x="200"
+       style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal"
+       font-size="12.8">
+      <tspan
+         id="tspan19"
+         y="100"
+         x="200" />
+    </text>
+    <text
+       id="text21"
+       y="100"
+       x="660"
+       style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal"
+       font-size="12.8">
+      <tspan
+         id="tspan23"
+         y="100"
+         x="660" />
+    </text>
+    <text
+       id="text25"
+       y="100"
+       x="200"
+       style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal"
+       font-size="12.8">
+      <tspan
+         id="tspan27"
+         y="100"
+         x="200" />
+    </text>
+    <text
+       id="text29"
+       y="100"
+       x="660"
+       style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal"
+       font-size="12.8">
+      <tspan
+         id="tspan31"
+         y="100"
+         x="660" />
+    </text>
+    <text
+       id="text33"
+       y="100"
+       x="660"
+       style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal"
+       font-size="12.8">
+      <tspan
+         id="tspan35"
+         y="100"
+         x="660" />
+    </text>
+    <text
+       id="text37"
+       y="100"
+       x="560"
+       style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal"
+       font-size="12.8">
+      <tspan
+         id="tspan39"
+         y="100"
+         x="560" />
+    </text>
+    <text
+       id="text41"
+       y="100"
+       x="200"
+       style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:700"
+       font-size="12.8">
+      <tspan
+         id="tspan43"
+         y="100"
+         x="200" />
+    </text>
+    <text
+       id="text45"
+       y="100"
+       x="700"
+       style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal"
+       font-size="12.8">
+      <tspan
+         id="tspan47"
+         y="100"
+         x="700" />
+    </text>
+    <g
+       id="g49">
+      <rect
+         id="rect51"
+         ry="0"
+         rx="0"
+         height="80"
+         width="200"
+         y="60"
+         x="560"
+         style="fill: #8b6914; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" />
+      <text
+         id="text53"
+         y="103.9"
+         x="660"
+         style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:700"
+         font-size="12.8">
+        <tspan
+           id="tspan55"
+           y="103.9"
+           x="660">new CategoryController</tspan>
+      </text>
+    </g>
+    <text
+       id="text57"
+       y="100"
+       x="900"
+       style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal"
+       font-size="12.8">
+      <tspan
+         id="tspan59"
+         y="100"
+         x="900" />
+    </text>
+    <g
+       id="g61">
+      <rect
+         id="rect63"
+         ry="0"
+         rx="0"
+         height="80"
+         width="200"
+         y="220"
+         x="560"
+         style="fill: #8b6914; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" />
+      <text
+         id="text65"
+         y="263.9"
+         x="660"
+         style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:700"
+         font-size="12.8">
+        <tspan
+           id="tspan67"
+           y="263.9"
+           x="660">new CategoryView</tspan>
+      </text>
+    </g>
+    <text
+       id="text69"
+       y="260"
+       x="700"
+       style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal"
+       font-size="12.8">
+      <tspan
+         id="tspan71"
+         y="260"
+         x="700" />
+    </text>
+    <g
+       id="g73">
+      <rect
+         id="rect75"
+         ry="0"
+         rx="0"
+         height="80"
+         width="200"
+         y="380"
+         x="560"
+         style="fill: #8b6914; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" />
+      <text
+         id="text77"
+         y="423.9"
+         x="660"
+         style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:700"
+         font-size="12.8">
+        <tspan
+           id="tspan79"
+           y="423.9"
+           x="660">new CategoryModel</tspan>
+      </text>
+    </g>
+    <text
+       id="text81"
+       y="500"
+       x="723.85"
+       style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal"
+       font-size="12.8">
+      <tspan
+         id="tspan83"
+         y="500"
+         x="723.85" />
+    </text>
+    <g
+       id="g85">
+      <rect
+         id="rect87"
+         ry="0"
+         rx="0"
+         height="78.1818"
+         width="156.364"
+         y="562.338"
+         x="580"
+         style="fill: #ffffff; fill-opacity: 1; stroke: none" />
+      <ellipse
+         id="ellipse89"
+         ry="22.3377"
+         rx="78.1818"
+         cy="640.519"
+         cx="658.182"
+         style="fill: #ffffff; fill-opacity: 1; stroke: none" />
+      <ellipse
+         id="ellipse91"
+         ry="22.3377"
+         rx="78.1818"
+         cy="562.338"
+         cx="658.182"
+         style="fill: #ffffff; fill-opacity: 1; stroke: none" />
+      <path
+         id="path93"
+         d="M 580 562.338 L 580,640.519"
+         style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke: #000000" />
+      <path
+         id="path95"
+         d="M 736.364 562.338 L 736.364,640.519"
+         style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke: #000000" />
+      <path
+         id="path97"
+         d="M 580 562.338 C 580,550.001 627.34,540 658.182,540 C 689.023,540 736.364,550.001 736.364,562.338"
+         style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke: #000000" />
+      <path
+         id="path99"
+         d="M 580 562.338 C 580,574.674 627.34,584.675 658.182,584.675 C 689.023,584.675 736.364,574.674 736.364,562.338"
+         style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke: #000000" />
+      <path
+         id="path101"
+         d="M 580 581.883 C 580,594.22 627.34,604.221 658.182,604.221 C 689.023,604.221 736.364,594.22 736.364,581.883"
+         style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke: #000000" />
+      <path
+         id="path103"
+         d="M 580 601.429 C 580,613.765 627.34,623.766 658.182,623.766 C 689.023,623.766 736.364,613.765 736.364,601.429"
+         style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke: #000000" />
+      <path
+         id="path105"
+         d="M 580 620.974 C 580,633.311 627.34,643.312 658.182,643.312 C 689.023,643.312 736.364,633.311 736.364,620.974"
+         style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke: #000000" />
+      <path
+         id="path107"
+         d="M 580 640.519 C 580,652.856 627.34,662.857 658.182,662.857 C 689.023,662.857 736.364,652.856 736.364,640.519"
+         style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke: #000000" />
+      <text
+         id="text109"
+         y="680.442"
+         x="658.182"
+         style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal"
+         font-size="12.8">
+        <tspan
+           id="tspan111"
+           y="680.442"
+           x="658.182" />
+      </text>
+    </g>
+    <g
+       id="g113">
+      <line
+         id="line115"
+         y2="549"
+         x2="700"
+         y1="460"
+         x1="700"
+         style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" />
+      <polygon
+         id="polygon117"
+         points="695,549 700,559 705,549 "
+         fill-rule="evenodd"
+         style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" />
+    </g>
+    <g
+       id="g119">
+      <line
+         id="line121"
+         y2="471"
+         x2="620"
+         y1="560"
+         x1="620"
+         style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" />
+      <polygon
+         id="polygon123"
+         points="625,471 620,461 615,471 "
+         fill-rule="evenodd"
+         style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" />
+    </g>
+    <text
+       id="text125"
+       y="620"
+       x="803.85"
+       style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal"
+       font-size="12.8">
+      <tspan
+         id="tspan127"
+         y="620"
+         x="803.85" />
+    </text>
+    <text
+       id="text129"
+       y="520"
+       x="720"
+       style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:700"
+       font-size="16.9785">
+      <tspan
+         id="tspan131"
+         y="520"
+         x="720">SELECT '*' FROM 'categories'</tspan>
+    </text>
+    <text
+       id="text133"
+       y="520"
+       x="560"
+       style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:700"
+       font-size="16.9785">
+      <tspan
+         id="tspan135"
+         y="520"
+         x="560">Dane</tspan>
+    </text>
+    <g
+       id="g137">
+      <line
+         id="line139"
+         y2="369"
+         x2="700"
+         y1="300"
+         x1="700"
+         style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" />
+      <polygon
+         id="polygon141"
+         points="695,369 700,379 705,369 "
+         fill-rule="evenodd"
+         style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" />
+    </g>
+    <g
+       id="g143">
+      <line
+         id="line145"
+         y2="311"
+         x2="620"
+         y1="380"
+         x1="620"
+         style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" />
+      <polygon
+         id="polygon147"
+         points="625,311 620,301 615,311 "
+         fill-rule="evenodd"
+         style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" />
+    </g>
+    <text
+       id="text149"
+       y="260"
+       x="700"
+       style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal"
+       font-size="12.8">
+      <tspan
+         id="tspan151"
+         y="260"
+         x="700" />
+    </text>
+    <text
+       id="text153"
+       y="340"
+       x="720"
+       style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:700"
+       font-size="16.9785">
+      <tspan
+         id="tspan155"
+         y="340"
+         x="720">CategoryView-&gt;index()'</tspan>
+    </text>
+    <text
+       id="text157"
+       y="380"
+       x="800"
+       style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal"
+       font-size="12.8">
+      <tspan
+         id="tspan159"
+         y="380"
+         x="800" />
+    </text>
+    <text
+       id="text161"
+       y="480"
+       x="720"
+       style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:700"
+       font-size="16.9785">
+      <tspan
+         id="tspan163"
+         y="480"
+         x="720">CategoryView-&gt;getAll()'</tspan>
+    </text>
+    <text
+       id="text165"
+       y="580"
+       x="880"
+       style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal"
+       font-size="12.8">
+      <tspan
+         id="tspan167"
+         y="580"
+         x="880" />
+    </text>
+    <text
+       id="text169"
+       y="180"
+       x="720"
+       style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:700"
+       font-size="16.9785">
+      <tspan
+         id="tspan171"
+         y="180"
+         x="720">CategoryController-&gt;index()'</tspan>
+    </text>
+    <g
+       id="g173">
+      <line
+         id="line175"
+         y2="209"
+         x2="700"
+         y1="140"
+         x1="700"
+         style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" />
+      <polygon
+         id="polygon177"
+         points="695,209 700,219 705,209 "
+         fill-rule="evenodd"
+         style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" />
+    </g>
+    <g
+       id="g179">
+      <line
+         id="line181"
+         y2="260"
+         x2="311"
+         y1="260"
+         x1="560"
+         style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" />
+      <polygon
+         id="polygon183"
+         points="311,255 301,260 311,265 "
+         fill-rule="evenodd"
+         style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" />
+    </g>
+    <text
+       id="text185"
+       y="340"
+       x="560"
+       style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:700"
+       font-size="16.9785">
+      <tspan
+         id="tspan187"
+         y="340"
+         x="560">Dane</tspan>
+    </text>
+    <g
+       id="g189">
+      <rect
+         id="rect191"
+         ry="0"
+         rx="0"
+         height="80"
+         width="200"
+         y="220"
+         x="100"
+         style="fill: #8b6914; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" />
+      <text
+         id="text193"
+         y="255.9"
+         x="200"
+         style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:700"
+         font-size="12.8">
+        <tspan
+           id="tspan195"
+           y="255.9"
+           x="200"
+           xml:space="preserve"> szablon indexCategory</tspan>        <tspan
+           id="tspan197"
+           y="271.9"
+           x="200" />
+      </text>
+    </g>
+    <text
+       id="text199"
+       y="360"
+       x="560"
+       style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:700"
+       font-size="16.9785">
+      <tspan
+         id="tspan201"
+         y="360"
+         x="560" />
+    </text>
+    <g
+       id="g203">
+      <line
+         id="line205"
+         y2="100"
+         x2="549"
+         y1="100"
+         x1="300"
+         style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" />
+      <polygon
+         id="polygon207"
+         points="549,105 559,100 549,95 "
+         fill-rule="evenodd"
+         style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" />
+    </g>
+    <text
+       id="text209"
+       y="100"
+       x="700"
+       style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal"
+       font-size="12.8">
+      <tspan
+         id="tspan211"
+         y="100"
+         x="700" />
+    </text>
+    <g
+       id="g213">
+      <line
+         id="line215"
+         y2="151"
+         x2="220"
+         y1="220"
+         x1="220"
+         style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" />
+      <polygon
+         id="polygon217"
+         points="225,151 220,141 215,151 "
+         fill-rule="evenodd"
+         style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" />
+    </g>
+    <text
+       id="text219"
+       y="240"
+       x="340"
+       style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:700"
+       font-size="16.9785">
+      <tspan
+         id="tspan221"
+         y="240"
+         x="340">CaregoryView-&gt;render</tspan>
+    </text>
+    <text
+       id="text223"
+       y="80"
+       x="320"
+       style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:700"
+       font-size="10.16">
+      <tspan
+         id="tspan225"
+         y="80"
+         x="320">index.php?task=categories&amp;action=index</tspan>
+    </text>
+    <text
+       id="text227"
+       y="180"
+       x="160"
+       style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:700"
+       font-size="16.9785">
+      <tspan
+         id="tspan229"
+         y="180"
+         x="160">HTML</tspan>
+      <tspan
+         id="tspan231"
+         y="201.223"
+         x="160" />
+    </text>
+  </g>
+</svg>

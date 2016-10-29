@@ -44,6 +44,29 @@ Tabela przechowujące kategorie ma nazwę ‘categories’. Z tego wynika nastę
 </div>
 </p>
 <h2 class="w3-panel w3-light-grey w3-text-grey">Schemat działania aplikacji</h2>
+<p>
+Główny plik aplikacji index.php pełni rolę głównego kontrolera (tzw. front controller). Jego zadaniem jest odczytać parametry 
+z adresu żądanej strony i uruchomić odpowiedni kontroler obsługujący konkretny obszar działanie aplikacji.<br>
+<b>Przykład:</b> 
+<div class="w3-panel w3-leftbar w3-light-grey w3-margin-left">
+Został wywołany następujący adres: <i>index.php?task=categories&action=index</i>, poprzez kliknięcie w menu odnośnika 
+„Lista kategorii”. Front controller odczytuje z tablicy <pre>$_GET</pre> parametry przekazane w adresie, tj:<br>
+<i>task=categories</i><br>
+<i>action=index</i><br>
+Zostanie zatem wywołany kontroler obsługi kategorii artykułów (utworzony obiekt na podstawie klasy kontrolera obsługującego 
+kategorie: obiekt klasy <i>CategoriesControler</i>). Kontroler kategorii na podstawie parametru <i>action</i> wywoła metodę 
+tworzącą obiekt widoku (na podstawie klasy <i>CategoriesView</i>), następnie zostanie na nim wykonana metoda przypisana do 
+akcji <i>index</i>. W naszym przykładzie akcja <i>index</i> ma spowodować pokazanie wszystkich kategorii zapisanych w bazie 
+danych. Tak więc wynikiem działania tej metody będzie utworzenie obiektu modelu (na podstawie klasy <i>CategoriesModel</i>), 
+na którym zostanie wywołana metoda wykonująca odpowiednie operacje na tabeli w bazie danych. W naszym przykładzie będzie to 
+SELECT pokazujący wszystkie rekordy z tabeli ‘categories’. Metoda zwróci dane wybrane z tabeli. Obiekt widoku może więc teraz
+te dane zaprezentować: wywoła metodę ładującą odpowiedni szablon z katalogu templates (plik <i>indexCategory.html.php</i>). 
+Dzięki temu użytkownik zobaczy stronę prezentującą spis kategorii artykułów naszej aplikacji
+
+<div class="w3-center"><img src="mvc.svg" width="50%" border="1"></div>
+
+</div>
+</p>
 </div>
 
 <div class="w3-container w3-navbar w3-margin w3-center">
