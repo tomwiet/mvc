@@ -40,13 +40,26 @@ abstract class Controller{
 
 		$name=ucfirst($name.'View'); //np ArticlesView
 		$path=$path.$name.'.php'; //np views/ArticlesView.php
-		
-		if(is_file($path)){
-			$view_ob = new $name();
+		try {
+			
+			if(is_file($path)){
+				$view_ob = new $name();
+			
 			}else{
-				echo 'Nie można utowrzyć widoku. Brak pliku('.$path.' z klasą widoku (from Controler.php)';
-				exit;
+				
+				throw new Exception ('Nie można otwprzyć widoku. Brak pliku('.$path.')');
+				
 				}
+		}catch(Exception $e) {
+			
+            echo $e->getMessage().'<br />
+                File: '.$e->getFile().'<br />
+                Code line: '.$e->getLine().'<br />
+                Trace: '.$e->getTraceAsString();
+            exit;
+        }
+		
+				
 		return $view_ob;
  
     }
