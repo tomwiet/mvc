@@ -1,4 +1,16 @@
 <?php
+/**
+ * @author Tomasz Wieteska <tomasz.wieteska@zsznr2.pl>
+ * @version: 1.0
+ * @license http://www.gnu.org/copyleft/lesser.html
+ */
+ 
+
+ 
+/**
+ * categories controller class
+ * includes methods of catrgories controller
+ */
 
 //zadaniem kontrolera jest przekazanie do modelu żadania przetworzenia danych oraz
 //wywołanie widoku który te dane zaprezentuje

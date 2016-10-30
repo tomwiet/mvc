@@ -1,5 +1,16 @@
 <?php
+/**
+ * @author Tomasz Wieteska <tomasz.wieteska@zsznr2.pl>
+ * @version: 1.0
+ * @license http://www.gnu.org/copyleft/lesser.html
+ */
+ 
 
+ 
+/**
+ * categories model class
+ * includes methods of catrgories model
+ */
 
 class CategoriesModel extends Model {
    //metoda wstawiająca dane do tabeli categories
