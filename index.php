@@ -25,4 +25,13 @@ if($_GET['task']=='categories') {
     $ob->$action(); 
 }
 
+if($_GET['task']=='articles') {
+    //tworzy nowy obiekt kontrolera na podstawie klasy CategoriesControler
+	$ob = new ArticlesController(); 
+	//wywołuje metodę o nazwie zawartej w parametrze action adresu url
+	//która ma za zadanie przygotować model i widok dla żądanej akcji [CategoriesControler.php]
+	$action = $_GET['action'];
+    $ob->$action(); 
+}
+
 ?>

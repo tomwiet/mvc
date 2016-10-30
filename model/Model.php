@@ -31,6 +31,8 @@ abstract class Model{
 		include 'config/config.php';
 		
 		$this->conn = new mysqli($server_DB,$user_DB,$password_DB,$name_DB);
+		//ustawienei kodowania w jakim baza będzie oddawać dane
+		$this->conn->set_charset("utf8");
 		
 		if($this->conn->connect_error){
 		
@@ -95,6 +97,7 @@ abstract class Model{
 			$sql = $sql.' ORDER BY '.$order;
 		if($limit != NULL)
 			$sql = $sql.' LIMIT '.$limit;
+		
 		$result = $this->conn->query($sql);
 		
 		if ($result->num_rows > 0) {

@@ -10,6 +10,7 @@
 	<label class="w3-label"><b>Nazwa kategorii</b></label>
 	<input class="w3-input w3-border" type="text" name="name" value="<?php echo $_GET['name']?>" />
 	<input class="w3-input w3-border" type="hidden" name="id" value="<?php echo $_GET['id']?>" />
+	<a  class= "w3-btn w3-dark-grey w3-margin-top" href="?task=categories&action=index">Anuluj</a>
 	<input class="w3-btn w3-dark-grey w3-margin-top" type="submit" value="Zapisz" />
 
 </form>
