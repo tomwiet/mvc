@@ -21,4 +21,12 @@ class ArticlesController extends Controller {
 		$view->show($_GET['id']);
 		
 	}
+	
+	public function edit(){
+		
+		$view=$this->loadView('articles');
+		
+		$view->edit($_GET['id']);
+		
+		}
 }

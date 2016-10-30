@@ -18,7 +18,7 @@ foreach($this->artsData as $arts) {
 <td><?php echo $arts['name']; ?></td>
 <td><?php echo $arts['date_add']; ?></td>
 <td>
-<a href="?task=categories&action=edit&id=<?php echo $arts['id']; ?>">
+<a href="?task=articles&action=edit&id=<?php echo $arts['id']; ?>">
 <i class="fa fa-edit" style="font-size:20px;color:black"></i></a>
 <a href="?task=articles&action=delete&id=<?php echo $arts['id']; ?>">
 <i class="fa fa-close" style="font-size:20px;color:red"></i></a>

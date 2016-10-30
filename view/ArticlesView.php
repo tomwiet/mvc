@@ -20,12 +20,20 @@ class ArticlesView extends View {
 		$model=$this->loadModel('articles');
 		
 		$this->set('artData', $model->select('indexArticles','*','id='.$id));
+		
 		$this->artData = $this->artData[0];
-		/*echo '<pre>';
-		var_dump($this->artData);
-		echo '<pre>';
-		exit;*/
 		
 		$this->render('showArticle');
+		}
+		
+	public function edit($id) {
+		
+		$model=$this->loadModel('articles');
+		
+		$this->set('artData', $model->select('articles','*','id='.$id));
+		
+		$this->artData = $this->artData[0];
+		
+		$this->render('editArticle');
 		}
 }
