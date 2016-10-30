@@ -47,7 +47,7 @@ abstract class Controller{
 			
 			}else{
 				
-				throw new Exception ('Nie można otwprzyć widoku. Brak pliku('.$path.')');
+				throw new Exception ('Nie można otworzyć widoku. Brak pliku('.$path.')');
 				
 				}
 		}catch(Exception $e) {
@@ -59,7 +59,6 @@ abstract class Controller{
             exit;
         }
 		
-				
 		return $view_ob;
  
     }
@@ -72,18 +71,32 @@ abstract class Controller{
      * @return object
      */
 	 //tworzy obiekt modelu
-    public function loadModel($name, $path='model/') {
+    
+	public function loadModel($name, $path='model/') {
 		$name=ucfirst($name.'Model'); //np ArticlesModel
 		$path=$path.$name.'.php'; //np views/ArticlesModel.php
-		
-		if(is_file($path)){
-			$model_ob = new $name();
+		try{
+			if(is_file($path)){
+			
+				$model_ob = new $name();
+			
 			}else{
-				echo 'Nie można utowrzyć modelu. Brak pliku( '.$path.' ) z klasą modelu (from Controller.php)';
-				exit;
+				
+				throw new Exception('Nie można utowrzyć modelu. Brak pliku ('.$path.' )');
+			
 			}
-		return $model_ob;
+			
+		} catch (Exception $e) {
+			
+			echo $e->getMessage().'<br />
+                File: '.$e->getFile().'<br />
+                Code line: '.$e->getLine().'<br />
+                Trace: '.$e->getTraceAsString();
+            exit;
  
-    }
+		}
+		
+		return $model_ob;
+	}
 }
 ?>

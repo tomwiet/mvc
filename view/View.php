@@ -24,13 +24,27 @@ abstract class View{
 		
 		$name=ucfirst($name.'Model'); //np ArticlesModel
 		$path=$path.$name.'.php'; //np views/ArticlesModel.php
-		
-		if(is_file($path)){
-			$model_ob = new $name();
+		try {
+			if(is_file($path)){
+				
+				$model_ob = new $name();
+			
 			}else{
-				echo 'Nie można utowrzyć modelu. Brak pliku('.$path.' ) z klasą modelu (from View.php)';
-				exit;
-				}
+				
+				throw new Exception('Nie można utowrzyć modelu. Brak pliku ('.$path.')');
+			
+			}
+				
+		} catch(Exception $e){
+			
+			echo $e->getMessage().'<br />
+			File: '.$e->getFile().'<br />
+			Code line: '.$e->getLine().'<br />
+			Trace: '.$e->getTraceAsString();
+		
+			exit;
+		}
+		
 		return $model_ob;
  
     }
@@ -44,11 +58,26 @@ abstract class View{
 		
 		$path=$path.$name.'.html.php'; //np articles.html.php
 		
-		if(is_file($path)) {
-			require $path;
-		} else {
-			echo 'Brak szablonu widoku dla '.$name;
+		try{
+			
+			if(is_file($path)) {
+				
+				require $path;
+			
+			} else {
+			
+				throw new Exception('Brak szablonu widoku dla '.$name);
+			}
+			
+		} catch(Exception $e){
+			
+			echo $e->getMessage().'<br />
+			File: '.$e->getFile().'<br />
+			Code line: '.$e->getLine().'<br />
+			Trace: '.$e->getTraceAsString();
+			
 		}
+		
  
     }
     /**

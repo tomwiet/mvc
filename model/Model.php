@@ -53,13 +53,25 @@ abstract class Model{
     public function loadModel($name, $path='model/') {
 		$name=ucfirst($name.'Model'); //np ArticlesModel
 		$path=$path.$name.'.php'; //np views/ArticlesModel.php
-		
-		if(is_file($path)){
-			$model_ob = new $name();
-		}else{
-			echo 'Nie można utowrzyć modelu. Brak pliku('.$path.' z klasą modelu (from Model.php)';
-			exit;
+		try{
+			if(is_file($path)){
+				
+				$model_ob = new $name();
+			
+			}else{
+				
+				throw new Exception ('Nie można utowrzyć modelu. Brak pliku('.$path.')');
+			}
+			
+		} catch (Exception $e){
+			
+				echo $e->getMessage().'<br />
+                File: '.$e->getFile().'<br />
+                Code line: '.$e->getLine().'<br />
+                Trace: '.$e->getTraceAsString();
+				exit;
 				}
+
 		return $model_ob;
  
     }
