@@ -13,4 +13,12 @@ class ArticlesController extends Controller {
 		$view->index();
  
     }
+	
+	public function show() {
+		
+		$view=$this->loadView('articles');
+	
+		$view->show($_GET['id']);
+		
+	}
 }

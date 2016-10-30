@@ -14,4 +14,18 @@ class ArticlesView extends View {
 		//wstawienei danych do pliku szablonu o nazwie indexCategory.html.php
         $this->render('indexArticles'); 
     }
+	
+	public function show($id) {
+		
+		$model=$this->loadModel('articles');
+		
+		$this->set('artData', $model->select('indexArticles','*','id='.$id));
+		$this->artData = $this->artData[0];
+		/*echo '<pre>';
+		var_dump($this->artData);
+		echo '<pre>';
+		exit;*/
+		
+		$this->render('showArticle');
+		}
 }

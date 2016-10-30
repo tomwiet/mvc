@@ -10,7 +10,7 @@
 <tbody class="w3-text-grey">
 <?php 
 //var_dump($this->get('catsData'));
-foreach($this->get('catsData') as $cats) {
+foreach($this->catsData as $cats) {
 ?>
 <tr>
 <td><?php echo $cats['id']; ?></td>
