@@ -15,7 +15,7 @@ foreach($this->get('artsData') as $arts) {
 <td><?php echo $arts['id']; ?></td>
 <td><?php echo $arts['title']; ?></td>
 <td><?php echo $arts['autor']; ?></td>
-<td><?php echo $arts['Id_categories']; ?></td>
+<td><?php echo $arts['name']; ?></td>
 <td><?php echo $arts['date_add']; ?></td>
 <td>
 <a href="?task=categories&action=edit&id=<?php echo $arts['id']; ?>">

@@ -9,7 +9,7 @@ class ArticlesView extends View {
 		$model=$this->loadModel('articles');
 		// wskazanie modelowi jakie dane chcemy dostać i przypisanie ich do zmiennej o nazwie catsData 
 		//[View.php]
-        $this->set('artsData', $model->getArts());
+        $this->set('artsData', $model->getAll());
 		//wygenerowanie widoku z pobranymi danymi [View.php]
 		//wstawienei danych do pliku szablonu o nazwie indexCategory.html.php
         $this->render('indexArticles'); 
