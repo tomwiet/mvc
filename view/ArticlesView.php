@@ -30,9 +30,11 @@ class ArticlesView extends View {
 		
 		$model=$this->loadModel('articles');
 		
-		$this->set('artData', $model->select('articles','*','id='.$id));
-		
+		$this->set('artData', $model->select('indexArticles','*','id='.$id));
 		$this->artData = $this->artData[0];
+		
+		$model_cat=$this->loadModel('categories');
+		$this->set('catsData',$model_cat->select('categories'));
 		
 		$this->render('editArticle');
 		}
