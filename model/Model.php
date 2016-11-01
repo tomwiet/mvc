@@ -31,6 +31,7 @@ abstract class Model{
 		include 'config/config.php';
 		
 		$this->conn = new mysqli($server_DB,$user_DB,$password_DB,$name_DB);
+		$this->conn->set_charset("utf8");
 		
 		if($this->conn->connect_error){
 		
