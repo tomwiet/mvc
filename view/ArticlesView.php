@@ -37,5 +37,15 @@ class ArticlesView extends View {
 		$this->set('catsData',$model_cat->select('categories'));
 		
 		$this->render('editArticle');
+		
+	}
+	
+	public function add() {
+		
+		$model_cat=$this->loadModel('categories');
+		$this->set('catsData',$model_cat->select('categories'));
+		
+		$this->render('addArticle');
+		
 		}
 }

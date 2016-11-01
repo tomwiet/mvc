@@ -97,7 +97,7 @@ abstract class Model{
 			$sql = $sql.' ORDER BY '.$order;
 		if($limit != NULL)
 			$sql = $sql.' LIMIT '.$limit;
-			
+		
 		$result = $this->conn->query($sql);
 		
 		if ($result->num_rows > 0) {
