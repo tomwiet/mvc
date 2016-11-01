@@ -34,7 +34,7 @@ class ArticlesModel extends Model {
 										`autor`="' . $_POST['autor'].'", 
 										`id_categories`="' . $_POST['category'] .'",  
 										`date_add`="' . $_POST['date_add'] . '", 
-										`content`="' .$_POST['content'] .
+										`content`="' . htmlentities($_POST['content']) .
 										'" WHERE id=' . $_POST['id'];
 										
 		$this->conn->query($sql);
