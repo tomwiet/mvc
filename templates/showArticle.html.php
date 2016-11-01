@@ -8,8 +8,8 @@
 <span class="w3-tag w3-blue-grey w3-margin">Kategoria:</span> <?php echo $this->artData['name']?>
 <span class="w3-tag w3-blue-grey w3-margin">Data publikacji:</span> <?php echo $this->artData['date_add']?>
 </p>
-<p>
-<?php echo $this->artData['content'] ?>
-<p>
+<div>
+<?php echo nl2br($this->artData['content']); ?>
+<div>
 </div>
 <? include 'templates/footer.html.php'; ?>

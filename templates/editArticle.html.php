@@ -24,7 +24,7 @@
 	<label class="w3-label"><b>Data utworzenia</b></label>
 	<input class="w3-input w3-border" type="text" name="date_add" value="<?php echo $this->artData['date_add']?>" >
 	<label class="w3-label"><b>Treść</b></label>
-	<textarea class="w3-input w3-border" rows="15" name="content" ><?php echo $this->artData['content']?></textarea>
+	<textarea class="w3-input w3-border" rows="15" name="content" ><?php echo html_entity_decode($this->artData['content'])?></textarea>
 	<a  class= "w3-btn w3-dark-grey w3-margin-top" href="?task=articles&action=index">Anuluj</a>
 	<input class="w3-btn w3-dark-grey w3-margin-top" type="submit" value="Zapisz" />
 
