@@ -27,4 +27,28 @@ class ArticlesModel extends Model {
 		$this->conn->close();
 		
 	}
+	
+	public function update($data) {
+		
+		$sql = 'UPDATE `articles` SET 	`title`="' . $_POST['title'] .'", 
+										`autor`="' . $_POST['autor'].'", 
+										`id_categories`="' . $_POST['category'] .'",
+										`date_add`="' . $_POST['date_add'] . '", 
+										`content`="' .$_POST['content'] .
+										'" WHERE id="' . $_POST['id'];
+
+		$this->conn->query($sql);
+		
+		/*
+		 * TODO: stworzyć komunikat który wyświetli ewnetualny bład lub poinformuje o sukcesie wstawienia danych
+		 * if ($this->conn->query($sql) === TRUE) {
+		 * 		echo 'New record created successfully';
+		 * }else{
+		 * 
+		 * 		echo "Error: " . $sql . "<br>" . $this->conn->error;
+		 * 
+		 * }
+		 * */
+	    $this->conn->close();
+    }
 }

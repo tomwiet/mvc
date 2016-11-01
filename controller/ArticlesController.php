@@ -29,4 +29,14 @@ class ArticlesController extends Controller {
 		$view->edit($_GET['id']);
 		
 		}
+		
+	public function update() {
+		
+		$model = $this->loadModel('articles');
+		
+		$model->update($_POST);
+		
+		$this->redirect('?task=articles&action=index');
+		}
+	
 }
