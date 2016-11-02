@@ -8,6 +8,7 @@
 <form class="w3-container" action="?task=categories&action=insert" method="post">
 	<label class="w3-label w3-text-grey"><b>Nazwa kategorii</b></label> 
 	<input class="w3-input w3-border" type="text" name="name">
+	<a class="w3-btn w3-dark-grey w3-margin-top" href="?task=categories&action=index">Anuluj</a>
 	<input class="w3-btn w3-dark-grey w3-margin-top" type="submit" value="Dodaj">
 </form>
 </div>
