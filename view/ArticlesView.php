@@ -23,4 +23,12 @@ class ArticlesView extends View {
 		$this->render('showArticle'); 
 		
 		}
+	public function add() {
+		$model = $this->loadModel('articles');
+		$this->set('cats',$model->select('categories','name, id'));
+	
+		$this->render('addArticle');
+		
+		
+		}
 }

@@ -13,7 +13,15 @@ class ArticlesController extends Controller {
 	public function show(){
 	
 	$view =$this->loadView('articles');
-	$view->show($_POST);
+	$view->show($_GET);
+	
+	}
+	
+	public function add(){
+	
+	$view =$this->loadView('articles');
+	$view->add();
+	
 	
 	}
 }
