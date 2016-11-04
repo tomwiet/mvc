@@ -16,10 +16,10 @@
 		<option value="<?php echo $cat['id'] ?>">
 		<?php echo $cat['name'] ?>
 		</option>
-	<?php  }?>;
-	
+	<?php  }?>
 	</select>
-	<a class="w3-btn w3-dark-grey w3-margin-top" href="?task=categories&action=index">Anuluj</a>
+	<textarea class="W3-container" style="width: 100%" name="content" rows="10"></textarea>
+	<a class="w3-btn w3-dark-grey w3-margin-top" href="?task=articles&action=index">Anuluj</a>
 	<input class="w3-btn w3-dark-grey w3-margin-top" type="submit" value="Dodaj">
 </form>
 </div>

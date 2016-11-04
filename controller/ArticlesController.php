@@ -24,4 +24,11 @@ class ArticlesController extends Controller {
 	
 	
 	}
+	
+	public function insert(){
+	
+	$model=$this->loadModel('articles');
+	$model->insert($_POST);
+	$this->redirect('?task=articles&action=index');
+	}
 }
