@@ -11,7 +11,7 @@
 <h3 class="w3-panel w3-light-grey w3-text-grey">
 <?php echo $this->artData['title']?></h3>
 <div class="w3-tag w3-round w3-green w3-border w3-border-white w3-margin">
-Autor: </div><?php echo $this->artData['title']?>
+Autor: </div><?php echo $this->artData['autor']?>
 <div class="w3-tag w3-round w3-green w3-border w3-border-white w3-margin">
 Kategoria:</div><?php echo $this->artData['name']?>
 <div class="w3-tag w3-round w3-green w3-border w3-border-black w3-margin">
