@@ -19,5 +19,29 @@ class ArticlesModel extends Model {
 	$this->conn->close();
 	
 	}
+	
+	public function delete($id) {
+		
+		$sql = 'DELETE FROM articles WHERE id=' . $id;
+		
+		try{
+			
+			if(!($this->conn->query($sql))){
+				
+				throw new Exception($this->conn->error);
+				$this->conn->close();
+				
+				}
+				
+			}catch (Exception $e){
+			
+				echo $e->getMessage().'<br />
+                File: '.$e->getFile().'<br />
+                Code line: '.$e->getLine().'<br />
+                Trace: '.$e->getTraceAsString();
+				exit;
+				}
+	}
+		
 }
 

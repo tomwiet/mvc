@@ -31,4 +31,13 @@ class ArticlesController extends Controller {
 	$model->insert($_POST);
 	$this->redirect('?task=articles&action=index');
 	}
+	
+	public function delete(){
+		
+		$model=$this->loadModel('articles');
+		$model->delete($_GET['id']);
+		$this->redirect('?task=articles&action=index');
+		
+		}
+	
 }
