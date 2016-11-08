@@ -42,6 +42,7 @@ class ArticlesModel extends Model {
 				exit;
 				}
 	}
+	
 		
 }
 

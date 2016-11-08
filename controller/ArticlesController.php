@@ -39,5 +39,13 @@ class ArticlesController extends Controller {
 		$this->redirect('?task=articles&action=index');
 		
 		}
+		
+	public function edit(){
+		
+		$view = $this->loadView('articles');
+		$view->edit();
+		//$this->redirect('?task=articles&action=index');
+		
+		}
 	
 }

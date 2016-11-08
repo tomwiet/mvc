@@ -31,4 +31,12 @@ class ArticlesView extends View {
 		
 		
 		}
+		
+	public function edit() {
+		
+		$model=$this->loadModel('articles');
+		$this->set('art',$model->select('indexArticles','*','id='.$_GET['id']));
+		$this->art = $this->art[0];
+		$this->render('editArticle');
+		}
 }

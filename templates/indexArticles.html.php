@@ -33,7 +33,7 @@ foreach($this->artsData as $arts) {
 <td><?php echo $arts['date_add']; ?></td>
 
 <td>
-<a href="?task=articles&action=edit&id=<?php echo $arts['id']; ?>&name=<?php echo $cats['name']; ?>">
+<a href="?task=articles&action=edit&id=<?php echo $arts['id']; ?>">
 <i class="fa fa-edit" style="font-size:20px;color:black"></i></a>
 <a onclick="return confirm('Jesteś pewien?')" href="?task=articles&action=delete&id=<?php echo $arts['id']; ?>">
 <i class="fa fa-close" style="font-size:20px;color:red"></i></a>
