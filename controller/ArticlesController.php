@@ -47,5 +47,14 @@ class ArticlesController extends Controller {
 		//$this->redirect('?task=articles&action=index');
 		
 		}
+		
+		public function update(){
+		
+		$model = $this->loadModel('articles');
+		$model->update($_POST);
+		
+		}
+	
+	
 	
 }

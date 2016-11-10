@@ -26,7 +26,6 @@ class ArticlesView extends View {
 	public function add() {
 		$model = $this->loadModel('articles');
 		$this->set('cats',$model->select('categories','name, id'));
-	
 		$this->render('addArticle');
 		
 		
@@ -37,6 +36,8 @@ class ArticlesView extends View {
 		$model=$this->loadModel('articles');
 		$this->set('art',$model->select('indexArticles','*','id='.$_GET['id']));
 		$this->art = $this->art[0];
+		$model = $this->loadModel('categories');
+		$this->set('cats',$model->select('categories','*'));
 		$this->render('editArticle');
 		}
 }
