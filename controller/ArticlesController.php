@@ -44,15 +44,15 @@ class ArticlesController extends Controller {
 		
 		$view = $this->loadView('articles');
 		$view->edit();
-		//$this->redirect('?task=articles&action=index');
+		
 		
 		}
 		
 		public function update(){
 		
 		$model = $this->loadModel('articles');
-		$model->update($_POST);
-		
+		$model->update($_POST );
+		$this->redirect('?task=articles&action=index');
 		}
 	
 	

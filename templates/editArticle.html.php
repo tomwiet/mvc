@@ -23,6 +23,7 @@
 	<label class="w3-label">Zawartość</label>
 	<textarea class="w3-input w3-border" name="content" rows="10"><?php echo $this->art['content'];?></textarea>
 	<input type="hidden" name="id" value="<?php echo $this->art['id']; ?>">
+	<input type="hidden" name="default_cat" value="<?php $cat['id']?>">
 	<input class="w3-btn w3-dark-grey w3-margin-top" type="submit" value="Zapisz" />
 </form>
 

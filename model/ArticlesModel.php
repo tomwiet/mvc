@@ -44,20 +44,20 @@ class ArticlesModel extends Model {
 	}
 	
 	public function update($data) {
-		
-	echo '<pre>';
-	var_dump($data);
-	echo '</pre>';
-	exit;
+  
+//	echo '<pre>';
+//	var_dump($data);
+//	echo '</pre>';
+//	exit;
 		$sql = 'UPDATE `articles` SET `title`="'.$_POST['title'].
-									  ',`autor`="'.$_POST['autor'].
-									  ',`content`="'.$_POST['content'].
-									  ', `id_categories`="'.$_POST['category'].' 
+									  '",`autor`="'.$_POST['autor'].
+									  '",`content`="'.$_POST['content'].
+									  '", `id_categories`="'.$_POST['category'].'" 
 									WHERE id=' . $_POST['id'];
-	echo '<pre>';
-	var_dump($sql);
-	echo '</pre>';
-	exit;
+//	echo '<pre>';
+//	var_dump($sql);
+//	echo '</pre>';
+//	exit;
 		
 		$this->conn->query($sql);
 		
